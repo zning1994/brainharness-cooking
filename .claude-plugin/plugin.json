@@ -1,0 +1,14 @@
+{
+  "name": "cooking-skill",
+  "version": "0.1.0",
+  "description": "Help users decide what to cook and how to cook it. Default to Chinese home cooking with practical technique guidance.",
+  "author": {
+    "name": "zning",
+    "email": "zhn038@gmail.com",
+    "url": "https://github.com/zning1994"
+  },
+  "homepage": "https://github.com/zning1994/cooking-skill",
+  "repository": "https://github.com/zning1994/cooking-skill",
+  "license": "MIT",
+  "keywords": ["cooking", "recipes", "chinese-cuisine", "home-cooking"]
+}
