@@ -22,6 +22,13 @@ in a lightweight, practical way.
   3. sauces
 - Added `Changelog` and `Releases` entry links to `README.md`.
 
+## [0.2.0] - 2026-10-04
+
+### Changed
+
+- Rename `cooking-skill` to `brainharness-cooking` and align repository links and installation names with BrainHarness.
+- Update distribution metadata and documentation; preserve skill behavior and historical release notes.
+
 ## [0.1.0] - 2026-04-08
 
 ### Added

@@ -1,22 +1,22 @@
 ---
-name: cooking-skill
+name: brainharness-cooking
 description: |
   Help users decide what to cook and how to cook it. Use when the user asks what to eat, what to cook with available ingredients, how to make a specific dish, or how to fix a cooking technique problem. Default to Chinese home cooking, practical technique guidance, and lightly lively human phrasing.
 argument-hint: "[dish-or-ingredients]"
-version: "0.1.0"
+version: 0.2.0
 user-invocable: true
 allowed-tools: Read, Write, Edit, Bash
 metadata:
   author: zning1994
   openclaw:
-    homepage: https://github.com/zning1994/cooking-skill
+    homepage: https://github.com/zning1994/brainharness-cooking
     os:
       - macos
       - linux
       - windows
 ---
 
-# Cooking Skill
+# BrainHarness Cooking
 
 Use this skill when the user wants a dish recommendation, a recipe from available ingredients, or help with a cooking technique.
 

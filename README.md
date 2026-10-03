@@ -1,18 +1,18 @@
 <div align="center">
 
-# 做饭.skill
+# BrainHarness · 做饭
 
 > 不知道吃什么，就先把冰箱和嘴说清楚。
 
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 [![Agent Skill](https://img.shields.io/badge/Skill-Cooking-green)](#)
-[![Status](https://img.shields.io/badge/status-v0.1.0-orange)](#)
+[![Status](https://img.shields.io/badge/status-v0.2.0-orange)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 一个会先问你两句、再给出可执行菜谱的做饭 Skill。  
 默认以中式家常菜为核心，吸收大厨技法和美食区的讲法，但不做夸张模仿。
 
-[快速安装](#安装) · [使用](#使用) · [示例](#示例) · [项目结构](#项目结构) · [Changelog](CHANGELOG.md) · [Releases](https://github.com/zning1994/cooking-skill/releases)
+[快速安装](#安装) · [使用](#使用) · [示例](#示例) · [项目结构](#项目结构) · [Changelog](CHANGELOG.md) · [Releases](https://github.com/zning1994/brainharness-cooking/releases)
 
 **Other Languages / 其他语言：**
 
@@ -24,7 +24,7 @@
 
 ## 这是什么
 
-`cooking.skill` 不是单纯的菜谱列表，也不是只会整活的美食区段子号。
+`brainharness-cooking` 不是单纯的菜谱列表，也不是只会整活的美食区段子号。
 
 它的目标是：
 
@@ -88,13 +88,13 @@
 ### 通用安装
 
 ```bash
-npx skills add zning1994/cooking-skill
+npx skills add zning1994/brainharness-cooking
 ```
 
 ### OpenClaw / ClawHub
 
 ```bash
-openclaw skills install cooking-skill
+npx clawhub@0.23.3 install brainharness-cooking
 ```
 
 ### Claude Code / 手动安装
@@ -103,13 +103,13 @@ openclaw skills install cooking-skill
 
 ```bash
 mkdir -p .claude/skills
-git clone https://github.com/zning1994/cooking-skill .claude/skills/cooking-skill
+git clone https://github.com/zning1994/brainharness-cooking .claude/skills/brainharness-cooking
 ```
 
 或安装到全局：
 
 ```bash
-git clone https://github.com/zning1994/cooking-skill ~/.claude/skills/cooking-skill
+git clone https://github.com/zning1994/brainharness-cooking ~/.claude/skills/brainharness-cooking
 ```
 
 ## 最适合 / 暂时不适合
@@ -163,13 +163,13 @@ git clone https://github.com/zning1994/cooking-skill ~/.claude/skills/cooking-sk
 ```text
 用户       > 今晚想吃点下饭的
 
-cooking.skill > 几个人吃？
+brainharness-cooking > 几个人吃？
 用户       > 两个人
 
-cooking.skill > 有没有不能吃、不会做、或者家里没有的条件？
+brainharness-cooking > 有没有不能吃、不会做、或者家里没有的条件？
 用户       > 不吃太辣，别太复杂
 
-cooking.skill > 那就直接做土豆烧鸡腿最稳。
+brainharness-cooking > 那就直接做土豆烧鸡腿最稳。
               > 原因很简单：它够下饭，做法不飘，家常厨房也容易控住。
               > 先把鸡腿煎出点颜色，再下土豆和料头，加生抽老抽和水焖到土豆发软。
               > 最容易翻车的是水放太多，最后变成一锅寡淡鸡汤土豆。
@@ -180,7 +180,7 @@ cooking.skill > 那就直接做土豆烧鸡腿最稳。
 ```text
 用户       > 家里有番茄鸡蛋挂面
 
-cooking.skill > 你这个条件别硬整花活，番茄鸡蛋面就对了。
+brainharness-cooking > 你这个条件别硬整花活，番茄鸡蛋面就对了。
               > 先把鸡蛋炒到刚凝固就盛出来，番茄单独炒出汁，再加水下面，
               > 最后把鸡蛋回锅。关键不是调多少料，是番茄汁一定要先出来。
 ```
@@ -190,7 +190,7 @@ cooking.skill > 你这个条件别硬整花活，番茄鸡蛋面就对了。
 ```text
 用户       > 牛肉怎么炒嫩一点
 
-cooking.skill > 先别想着靠一堆调料救它，重点是切法和火候。
+brainharness-cooking > 先别想着靠一堆调料救它，重点是切法和火候。
               > 逆纹切薄片，先用一点生抽、淀粉和油抓匀。
               > 热锅快炒到刚变色就先盛出来，别恋战。
               > 你要是一直炒到“看起来很熟”，基本就已经老了。
@@ -201,7 +201,7 @@ cooking.skill > 先别想着靠一堆调料救它，重点是切法和火候。
 ## 项目结构
 
 ```text
-cooking.skill/
+brainharness-cooking/
 ├── SKILL.md
 ├── README.md
 ├── README_EN.md

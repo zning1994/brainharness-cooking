@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "purpose": "Lightweight distribution-phase eval anchors for cooking.skill",
+  "purpose": "Lightweight distribution-phase eval anchors for brainharness-cooking",
   "cases": [
     {
       "name": "craving_down_to_one_dish",
