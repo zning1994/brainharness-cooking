@@ -276,3 +276,9 @@ brainharness-cooking/
 ## License
 
 MIT
+
+## Codex 与 OpenAI 插件
+
+本仓库提供 portable `plugin.json`，与 Claude 共用同一份技能内容。仓库市场接入后可使用 `codex plugin add brainharness-cooking@brainharness` 安装。ChatGPT 公开插件目录尚未上架。
+
+发布归档时需要将 `skills/brainharness-cooking/` 内的符号链接展开为实际文件，并包含全部 `references/` 内容；不要只复制 SKILL.md。

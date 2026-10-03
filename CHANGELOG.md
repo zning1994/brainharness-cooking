@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 in a lightweight, practical way.
 
+## [0.2.1] - 2026-10-04
+
+### Changed
+
+- Add a portable OpenAI plugin manifest alongside the Claude manifest.
+- Keep skill instructions shared and make bundled resources reachable from the skill directory.
+- Document installation scope and public ChatGPT listing status.
+
 ## [Unreleased]
 
 ### Added

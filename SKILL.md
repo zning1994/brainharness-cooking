@@ -3,7 +3,7 @@ name: brainharness-cooking
 description: |
   Help users decide what to cook and how to cook it. Use when the user asks what to eat, what to cook with available ingredients, how to make a specific dish, or how to fix a cooking technique problem. Default to Chinese home cooking, practical technique guidance, and lightly lively human phrasing.
 argument-hint: "[dish-or-ingredients]"
-version: 0.2.0
+version: 0.2.1
 user-invocable: true
 allowed-tools: Read, Write, Edit, Bash
 metadata:
